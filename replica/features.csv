@@ -1,0 +1,41 @@
+feature,area,priority,original,clone,notes
+Category browsing on home (tiles),storefront,must,yes,yes,S01 home category tiles
+Shop listing grid,storefront,must,yes,yes,S02 server-rendered grid (original was client-only)
+Filter listing by category,storefront,must,yes,yes,S02 ?category= chips
+Product detail page,storefront,must,yes,yes,S03 gallery placeholder + description + trust blocks
+Add to cart from product card,storefront,must,yes,yes,"no navigation, toast confirms"
+Cart slide-over with qty edit and remove,cart,must,yes,yes,"S04 bottom-sheet/drawer, localStorage persisted"
+Guest checkout (no account required),checkout,must,yes,yes,S05 no login needed
+Cash on Delivery order form,checkout,must,yes,yes,S03 inline + S05 checkout
+District-based shipping fee,checkout,must,yes,yes,18 districts; ৳80 inside / ৳150 outside
+Order confirmation after submit,checkout,must,yes,yes,S06 order number RF-YYYYMMDD-NNNN
+Order tracking by order no or phone,post-purchase,must,yes,yes,S07 requires both; 404 on mismatch
+Product reviews and star rating,product,must,yes,yes,S03 verified-buyer cards
+Stock status display,product,must,yes,yes,in stock / N left / out
+Sale pricing (compare-at + discount %),product,must,yes,yes,percent badge
+Wishlist,storefront,must,yes,yes,"localStorage, works without login"
+Contact via phone/WhatsApp/email,support,must,yes,yes,S10 live-chat + S13 contact + footer
+Static info pages (about/faq/policies),content,must,yes,yes,"S11,S12,S16,S17,S18"
+Mobile-first responsive layout,storefront,must,yes,partial,responsive classes in place; not verified on device/screenshots
+Bengali UI and ৳ currency,localisation,must,yes,yes,Bengali numerals + ৳ throughout
+Flash deals row with countdown timer,merchandising,should,yes,yes,S01 countdown client component
+Coupon code field + apply,checkout,should,yes,yes,WELCOME10 validated server-side
+Related products on product page,product,should,yes,yes,same-category carousel
+Order now shortcut on product page,product,should,yes,yes,S03 inline direct-order form (source=direct)
+Customer photo gallery,merchandising,should,yes,partial,section intentionally omitted to avoid the original's photo assets
+Product benefits and box-contents lists,product,should,yes,yes,S03 structured sections
+Blog with posts,content,should,yes,yes,S14 index + S15 post
+SEO: sitemap.xml robots.txt meta titles,seo,should,yes,yes,app/sitemap.ts + robots.ts + generateMetadata
+Account login and order history,accounts,should,yes,yes,S09 real Supabase auth + /account order history
+Online payment gateway,payments,could,yes,no,COD only for now; SSLCommerz in replica-backend
+Product search,storefront,could,yes,no,header icon routes to shop; no search index yet
+Admin dashboard for products and orders,ops,could,unknown,no,not built yet
+Third-party customer network (Facebook/Instagram feed),integrations,could,yes,skip,their social audience is not rebuildable
+Original brand name logo and product photos,branding,must,yes,skip,rebranded to Rabeya Furniture; no original assets used
+verified-buyer product reviews,product,should,no,no,planned; product_reviews table; customer district shown
+free delivery in Dhaka from ৳500,checkout,must,no,no,"original is ৳500, clone is ৳1999 — change the constant"
+order-thread support inbox,support,should,no,no,"one WhatsApp thread per order, with status, owner, response-time SLA"
+public trust dashboard,content,could,no,no,"orders today, avg delivery, return rate, response time on /about"
+PWA install prompt on mobile,storefront,should,no,no,mobile-first web without paying Play Store 30%
+address search at checkout,checkout,should,no,no,thana / district / PO search; not a 64-item dropdown
+two-minute WhatsApp handoff template,support,should,no,no,"Bengali template with order number, address, total, 5-line FAQ"

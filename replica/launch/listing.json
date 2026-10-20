@@ -1,0 +1,21 @@
+{
+  "avoid": [
+    "Sicily",
+    "Sicily Furniture",
+    "Sicily Decor",
+    "Sicily Home"
+  ],
+  "app_store": {
+    "name": "Rabeya Furniture",
+    "subtitle": "Handmade decor, fairly priced",
+    "promotional_text": "Free Dhaka delivery from ৳500. One WhatsApp thread per order, with a name on it. No hidden fees, no advance payment.",
+    "description": "Rabeya Furniture is a small home-decor workshop in Dhaka. Every piece is hand-made, every order ships with the price on the product card, and the price you see is the price you pay.\n\nWhat you get:\n- Free Dhaka delivery from ৳500. Outside Dhaka: ৳150, free from ৳2,500.\n- One WhatsApp thread per order, with a name on it. A 6-hour reply, in Bengali, during business hours.\n- Verified-buyer reviews on every product, with the reviewer's district.\n- A live trust dashboard on /about: orders today, median delivery, return rate, response time.\n- Thana / district search at checkout, not a 64-item dropdown.\n- 7-day return on unused items in original packaging. Refuse a damaged delivery, no questions.\n- Cash on delivery. No advance, no platform fee, no hidden line items at checkout.\n\nHow it works:\n1. Pick a piece. The price on the card is the price you pay, shipping on the same line.\n2. Fill the form: name, phone, thana, address. We text you a copy of your order on WhatsApp.\n3. Pay the courier when the product is in your hand. Check the box. Pay.\n\nFor returning customers: a 5% loyalty code (RABEYA05) on the second order, and priority WhatsApp from a single named agent on whole-house orders (৳8,000+).",
+    "keywords": "flower tub,wall stand,thana search,cod dhaka,indoor plant,bd shop",
+    "whats_new": "Free Dhaka delivery from ৳500, down from ৳1999. The same threshold as the workshop we learned from."
+  },
+  "google_play": {
+    "title": "Rabeya Furniture",
+    "short_description": "Handmade home decor, fairly priced. Dhaka shipping from ৳500.",
+    "full_description": "Rabeya Furniture is a small home-decor workshop in Dhaka. Every piece is hand-made, every order ships with the price on the product card, and the price you see is the price you pay.\n\nWhat you get:\n- Free Dhaka delivery from ৳500. Outside Dhaka: ৳150, free from ৳2,500.\n- One WhatsApp thread per order, with a name on it. A 6-hour reply, in Bengali, during business hours.\n- Verified-buyer reviews on every product, with the reviewer's district.\n- A live trust dashboard on /about: orders today, median delivery, return rate, response time.\n- Thana / district search at checkout, not a 64-item dropdown.\n- 7-day return on unused items in original packaging. Refuse a damaged delivery, no questions.\n- Cash on delivery. No advance, no platform fee, no hidden line items at checkout.\n\nHow it works:\n1. Pick a piece. The price on the card is the price you pay, shipping on the same line.\n2. Fill the form: name, phone, thana, address. We text you a copy of your order on WhatsApp.\n3. Pay the courier when the product is in your hand. Check the box. Pay.\n\nFor returning customers: a 5% loyalty code (RABEYA05) on the second order, and priority WhatsApp from a single named agent on whole-house orders (৳8,000+)."
+  }
+}

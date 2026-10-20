@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f6f6f4;
+  --color-surface-2: #efeeea;
+  --color-border: #e3e2dd;
+  --color-border-input: #6b7280;
+  --color-text: #16161a;
+  --color-text-muted: #5b5b66;
+  --color-primary: #3a3a40;
+  --color-on-primary: #ffffff;
+  --color-secondary: #52525b;
+  --color-on-secondary: #ffffff;
+  --color-accent: #6b7280;
+  --color-on-accent: #ffffff;
+  --color-danger: #c62f2f;
+  --color-success: #1f7a4d;
+  --color-warning: #b45309;
+  --color-whatsapp: #25d366;
+  --color-on-whatsapp: #04331a;
+  --max-content: 1200px;
+  --header-height: 64px;
+  --bottom-nav-height: 64px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-bg text-text font-bangla antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6;
+  }
+}

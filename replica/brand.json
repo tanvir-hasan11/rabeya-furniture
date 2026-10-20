@@ -1,0 +1,41 @@
+{
+  "name": "Rabeya Furniture",
+  "tagline": "হাতে তৈরি হোম ডেকোর, মনে রাখার মতো",
+  "tagline_en": "Handmade home decor worth remembering",
+  "domain": "rabeyafurniture.bd",
+  "domains": [
+    "sicily.com.bd",
+    "www.sicily.com.bd"
+  ],
+  "avoid": [
+    "Sicily",
+    "Sicily Furniture",
+    "Sicily Decor",
+    "Sicily Home"
+  ],
+  "colors": [
+    "#0b5d5c",
+    "#0f7573",
+    "#e6027c",
+    "#b80260",
+    "#ff3d9a",
+    "#c6a15b",
+    "#faf7f1",
+    "#e9e3d8",
+    "#6b6560"
+  ],
+  "voice": {
+    "three_words": ["warmi", "honest", "calm"],
+    "three_words_en": ["warm", "honest", "calm"],
+    "do": [
+      "Speak to the customer as a neighbour who makes these by hand.",
+      "Use Bengali first; English only when the customer did.",
+      "Say the price, the delivery day, and the phone number. Every time."
+    ],
+    "dont": [
+      "Do not be cute. 'Cozy' is a code word for 'we did not write the copy'.",
+      "Do not call the customer 'dear', 'sir', or 'madam'.",
+      "Do not borrow the original's pink-and-gold ornament; this brand is moss and stone, not candy."
+    ]
+  }
+}
